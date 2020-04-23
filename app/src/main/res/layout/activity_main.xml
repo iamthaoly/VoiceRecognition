@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnTaoTiengAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo 1 từ tiếng anh" />
+
+    <TextView
+        android:id="@+id/txtTuNgauNhien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Từ tiếng anh ngẫu nhiên" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận dạng giọng nói 1" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận dạng giọng  nói 2" />
+
+</LinearLayout>
